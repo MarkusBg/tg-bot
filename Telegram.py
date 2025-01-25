@@ -84,7 +84,7 @@ async def set_reminders(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     """Основная функция запуска бота."""
-    app = Application.builder().token("7853472490:AAGDx1sj8yA38zmLACxl4iwl7Cl92YswpJw").build()
+    app = Application.builder().token("7853472490:sj8yA38zmLACxl4iwl7Cl92YswpJw").build()
 
     # Хендлеры команд
     app.add_handler(CommandHandler("start", start))
